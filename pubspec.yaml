@@ -1,0 +1,32 @@
+name: tradingacademy2
+description: Trading Academy mobile app
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Iconos iOS
+  cupertino_icons: ^1.0.8
+
+  # WebView para mostrar tu web Flask
+  webview_flutter: ^4.7.0
+
+  # Para conectar Flutter con Flask API
+  http: ^1.2.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+
+flutter:
+  uses-material-design: true
